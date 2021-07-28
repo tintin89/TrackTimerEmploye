@@ -1,0 +1,13 @@
+.home{
+    width: 100%;
+    min-height: calc(100vh - 5rem);
+    display:grid;
+    place-items: center;
+}
+.results{
+    width: 100%;
+    min-height: calc(100vh - 5rem);
+    display: flex;
+    justify-content: center;
+    
+}

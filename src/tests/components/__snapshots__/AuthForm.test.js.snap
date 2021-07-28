@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in AuthForm must show correctly 1`] = `
+Array [
+  "",
+  <form
+    className="formAuth"
+    onSubmit={[Function]}
+  >
+    <div
+      className="formAuth__field"
+    >
+      <label
+        htmlFor="email"
+      >
+        User
+      </label>
+      <input
+        id="email"
+        onChange={[Function]}
+        placeholder="user@example.com"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      className="formAuth__field"
+    >
+      <label
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        id="password"
+        onChange={[Function]}
+        placeholder="Enter your password"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      type="submit"
+    >
+      SIGN IN
+    </button>
+    <div
+      className="formAuth__register"
+      onClick={[Function]}
+    >
+      Register Here
+    </div>
+  </form>,
+]
+`;

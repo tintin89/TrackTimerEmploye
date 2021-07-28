@@ -1,0 +1,45 @@
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1f24;
+    height: 5rem;   
+}
+.navBar a{
+  text-decoration: none;
+}
+.log{
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+.logo__container{
+    display: flex;
+    align-items: center;    
+    cursor: pointer;
+    
+}
+.logo__container span{
+    color: #fff;
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 120px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.logo{
+    height: 50px;
+    pointer-events: none;
+    animation: App-logo-spin infinite 10s linear;
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

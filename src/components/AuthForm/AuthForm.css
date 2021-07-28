@@ -1,0 +1,60 @@
+.formAuth{
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    max-width:500px;
+    width: 90%;
+    background-color: #1c1f24;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 0.5rem;   
+    font-family: 'Poppins', sans-serif;
+}
+
+.formAuth__field{
+    margin-top: 1rem;
+    width: 100%;    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.formAuth__field input{
+    width: 90%;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    color: #3d3d3d;
+    border-radius: 3px;
+}
+
+.formAuth__field input::placeholder{
+  color: #686868;
+}
+
+.formAuth__field label{
+    width: 95%;
+    padding:0.5rem 0;
+    color: #ffff;
+}
+
+.formAuth button{
+    cursor: pointer;
+    background-color: #2e6474;
+    color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 2rem;
+    width: 70%;
+    padding:0.3rem;
+}
+
+.formAuth__register{
+    cursor: pointer;
+    width: 90%;
+    margin-top: 2rem;
+    color: #ffff;
+    text-align: end;
+    
+}

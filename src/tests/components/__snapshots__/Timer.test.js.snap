@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in Employes.js Must show correctly 1`] = `
+Array [
+  <div
+    className="timer__container"
+  >
+    <div
+      className="timer"
+    >
+      <span>
+        00
+        :
+      </span>
+      <span>
+        00
+        :
+      </span>
+      <span>
+        00
+      </span>
+    </div>
+    <div
+      className="timer__line"
+    />
+    <span
+      className="expectedHours"
+    >
+      Expected Working Hours: 8hrs
+    </span>
+  </div>,
+  <div
+    className="lunchTime"
+    onClick={[Function]}
+  >
+    Go to Lunch
+  </div>,
+]
+`;

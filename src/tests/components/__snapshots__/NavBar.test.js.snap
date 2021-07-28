@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test in Employes.js Must show correctly 1`] = `
+<div
+  className="navBar"
+>
+  <a
+    aria-current="page"
+    className="active"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <div
+      className="logo__container"
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="logo.svg"
+      />
+      <span>
+        TRACK TIMER EMPLOYES
+      </span>
+    </div>
+  </a>
+  <span
+    className="log"
+    onClick={[Function]}
+  >
+    Log Out
+  </span>
+</div>
+`;
